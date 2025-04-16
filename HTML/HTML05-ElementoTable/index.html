@@ -10,42 +10,97 @@
 <body>
     <!--Tabelas de  tr >3 linhas e td > 4 colunas-->
 
+    <!-- coluna toda desorganizada (sem cabeçalho)
     <table>
-        <th>Comidas</th>
+      
         <tr>
+
         <td>Café</td>
         <td>Iogurte</td>
         <td>Leite</td>
         <td>Sucrilhos</td>
+
         </tr>
         
-        <th>Limpeza</th>
         <tr>
         
         <td>Água sanitária</td>
         <td>Sabão em pó</td>
         <td>Detergente</td>
         <td>Esponja</td>
+
         </tr>
 
-        <th>Frutas</th>
         <tr>
+
         <td>Maçã</td>
         <td>Mamão</td>
         <td>Melão</td>
         <td>Melancia</td>
+
         </tr>
 
+    </table>
+    -->
 
+    <!-- Cabeçalho (tag 'th') abaixo::::-->
+    <table>
+        
+        <tr>
+        <th></th>
+        <th>Verduras</th>
+        <th>Produtos de Limpeza</th>
+        <th>Frutas</th>
+        </tr>
 
+    <!--Crie 6 itens para cada cabeçalho da tabela-->
+    <!-- Concatena linhas > rowspan = linha;
+        Concatena colunas > colspan = Colunas; -->
+    <tr>
+        <td rowspan="6">Itens de Compra</td><td>Alface</td> <td>Cloro</td> <td>Maçã</td>
+    </tr>
+    <!--Crie o restante: 5 linhas com 3 colunas, representando as informações -->
+    <!-- Concatena linhas > rowspan = linha;
+        Concatena colunas > colspan = Colunas; -->
+    <tr>
+        <td>Itens de compras</td>
+        <td>Repolho</td>
+        <td>Sabão em pó</td>
+        <td>Melão</td>
+    </tr>
+    
+    <tr>
+        
+        <td>Pepino</td>
+        <td>Detergente</td>
+        <td>Abacaxi</td>
+    </tr>
 
+    <tr>
+        
+        <td>Cenouras</td>
+        <td>Pinho sol</td>
+        <td>Banana</td>
+    </tr>
 
+    <tr>
+        
+        <td>Beterraba</td>
+        <td>Esponjas</td>
+        <td>Caqui</td>
+    </tr>
+    
+    <tr>
+        
+        <td>Pimentão</td>
+        <td>Pato</td>
+        <td>Uvas</td>
+    </tr>
 
+    <td>Total</td> <td colspan="3">R$870,00</td>
 
     </table>
 
-
-    
 </body>
 
 
