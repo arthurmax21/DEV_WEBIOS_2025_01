@@ -1,0 +1,12 @@
+tr {
+    text-align: center;
+}
+
+td, th {
+    border: 1px solid blueviolet;
+}
+
+.id{
+    text-align: end;
+    
+}

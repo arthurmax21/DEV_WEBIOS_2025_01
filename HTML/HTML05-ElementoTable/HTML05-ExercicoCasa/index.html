@@ -4,19 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício</title>
-
-    <style>
-    table, th, {
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto; 
-      }
-     td{
-
-        text-align: right;
-     }
-    </style>
-      
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/> 
 </head>
 <body>
 
@@ -28,7 +16,7 @@
         <th>Valor Unitário</th>
         <th>Nível do Estoque</th>
         <th>Quantidade em Estoque</th>
-        <th>Total Vendidps</th>
+        <th>Total Vendidos</th>
     </tr>
 
     <tr>
@@ -152,10 +140,13 @@
         <td>920ct</td>
         <td>200ct</td>
     </tr>
-    
-    <tr>
-        <td>Total</td> <td colspan="3">R$3.800.000,00</td>
-    </tr>
+
+    <div id="final">
+        <tr>
+        <td>Total:</td> <td colspan="5" id="final">R$3.800.000,00</td>
+        </tr>
+    </div>
+
     </table>
 
 
