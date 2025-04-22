@@ -1,77 +1,111 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 06 - Formulários</title>
 </head>
+
 <body>
 
     <!-- Atributo 'action' serve para executar uma ação: enviar o usuário para outro site web/enviar um Email de boas vindas para o user/serve para guardar as informações preenchidas no formulário p/banco de dados/ou chamar alguma ação usando o JavaScript-->
-    <form action="">
+    <form action="./boasVindas.html" target="_blank">
 
-        <!-- Placeholder: Serve para inserir um texto auxiliar para informar o que o usuário deve fazer no campo 'input'-->
-        <label for="">Nome:</label>
-        <input type="text">
+        <fieldset>
+            <legend>
+                <h3>Digite seu nome:</h3>
+            </legend>
 
+            <!-- Placeholder: Serve para inserir um texto auxiliar para informar o que o usuário deve fazer no campo 'input'-->
+            <label for="">Nome:</label>
+            <input type="text" required>
+
+        </fieldset>
         <!--Type Radio - três opções-->
         <!-- Para aplicar a configuraçã do 'radio' é necessário o type como radio e o 'name' igual para todos os 'inputs'-->
 
         <br>
-        <label>Onde você reside atualmente?</label> <br>
-        
-        <input type="radio" name="radio"> <label for="">São Paulo</label> <br>
-        <input type="radio" name="radio"> <label for="">Grande São Paulo</label> <br>
-        <input type="radio" name="radio"> <label for="">Campinas</label> <br>
+        <fieldset>
+            <legend>
+                <h3>Onde você reside?</h3>
+            </legend>
 
-        <!-- Campos do formulário vão aqui::-->  
+            <label>Selecione onde você mora:</label> <br>
+
+            <input type="radio" name="radio"> <label for="">São Paulo</label> <br>
+            <input type="radio" name="radio"> <label for="">Grande São Paulo</label> <br>
+            <input type="radio" name="radio"> <label for="">Campinas</label> <br>
+
+        </fieldset>
+
+        <!-- Campos do formulário vão aqui::-->
         <!-- Value: colocar um texto no input quando estiver o valor do atributo 'type' estiver como 'button'-->
 
         <!--Checkbox-->
+        <fieldset>
+            <legend>
+                <h3>Escolha seu gênero musical:</h3>
+            </legend>
 
-        <input type="checkbox"> <label>Funk</label> <br>
-        <input type="checkbox"> <label>Pagode</label> <br>
-        <input type="checkbox"> <label>Metal</label> <br>
-        <input type="checkbox"> <label>Trap</label> <br>
+            <input type="checkbox"> <label>Funk</label> <br>
+            <input type="checkbox"> <label>Pagode</label> <br>
+            <input type="checkbox"> <label>Metal</label> <br>
+            <input type="checkbox"> <label>Trap</label> <br>
+
+        </fieldset>
 
         <!--Type Range-->
+        <fieldset>
 
-        0km <input type="range"100Km> <br>
+            <legend>
+                <h3>Escolha a distancia:</h3>
+            </legend>
+            0km <input type="range" 100Km> <br>
 
+        </fieldset>
         <!--Select-->
-        <select name="" id="">
-            <option value="Amarelo">Amareo</option>
-            <option value="Branco">Branco</option>
-            <option value="Vermlenho">Vermelho</option>
-        </select>
-        <br>
+        <fieldset>
+            <legend>
+                <h3>Escolha uma cor:</h3>
+            </legend>
+            <select name="" id="">
+                <option value="Amarelo">Amareo</option>
+                <option value="Branco">Branco</option>
+                <option value="Vermlenho">Vermelho</option>
+            </select>
+        </fieldset>
         <br>
 
         <!--Datalist-->
 
-        <input type="text" list="busca">
-        <datalist id="busca">
-            <option value="Santos"></option>
-            <option value="Santo André"></option>
-            <option value="Santo Antônio"></option>
-            <option value="Campinas"></option>
-        </datalist>
+        <fieldset>
 
+            <legend>
+                <h3>Qual sua Cidade?</h3>
+            </legend>
 
-        <input type="button" value="Enviar">
+            <input type="text" list="busca">
+            <datalist id="busca">
+                <option value="Santos"></option>
+                <option value="Santo André"></option>
+                <option value="Santo Antônio"></option>
+                <option value="Campinas"></option>
+            </datalist>
+            <br>
+
+        </fieldset>
+
         <br>
-
-
-        
-    
-
-
-
+        <input type="submit" value="Enviar">
+        <br>
 
     </form>
 
 
 
     
+
 </body>
+
 </html>
