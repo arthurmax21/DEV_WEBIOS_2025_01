@@ -6,6 +6,7 @@ h1{
      background-color: #431c1c; /* RED(FF), GREEN(00), BLUE(00) \Intensidade da cor '00' sendo nula */
      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
      font-size: 100px;
+     text-align: center;
 }
 body{
 
@@ -13,12 +14,14 @@ body{
     font-weight: 400;
     font-style: normal;
     line-height: 180%;
+     
     
 
 }
 
 h2{
-    text-shadow:3px 3px #00FFFF;
+    text-shadow:3px 3px  #00FFFF;
+    
 
     /* deslocamento horizontal da sombra deslocamento vertical da sombra, raio do borrado (opcional) e cor */
 }
