@@ -1,0 +1,22 @@
+
+
+/* Para sinalizar que eu vou chamar um ID o nome deve vir acompanhado de jogo da velha (ao início) Ex.: */
+
+#div1{
+
+    background-color: beige;
+}
+
+#div2{
+
+    background-color: blueviolet;
+}
+
+/* Para sinalizar que eu chamarei uma 'class' o nome deve vir acompanhado no início pelo 'ponto final' Ex.: */
+/* Aplica o mesmo estilo CSS para várias tags diferentes */
+
+.styleTitle{
+
+    text-shadow: 5px 5px 2px yellowgreen;
+}
+
