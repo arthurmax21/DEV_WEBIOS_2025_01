@@ -18,5 +18,13 @@
 .styleTitle{
 
     text-shadow: 5px 5px 2px yellowgreen;
+}   
+
+*{
+    margin: 0;
+   
 }
 
+div section{
+    background-color: yellow;
+}
