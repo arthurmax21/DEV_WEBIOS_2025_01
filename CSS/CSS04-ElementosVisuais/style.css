@@ -1,0 +1,15 @@
+h1{
+    color: blueviolet;
+}
+
+#P1{
+    /* Largura da borda */
+    border-width: 2px;
+
+    /* Cor da borda */
+    border-color: aqua;
+    /* Estilo da borda(como a borda irá se comportar, e aparecer ao usuário. */
+    border-style: solid;
+    padding: 4px;
+    
+}
