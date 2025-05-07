@@ -13,3 +13,26 @@ h1{
     padding: 4px;
     
 }
+
+img{
+    /* Largura */
+    width: 600px;
+    /* Altura  */
+    height: 600px;
+    background-position: center;
+    position: relative;
+    
+       
+}
+
+body{
+     background-image: url("./pet.jpg");
+     background-size: cover;
+     /* fixed(fixo) / Scroll(Irá duplicar) */
+     background-attachment: fixed;
+     position: relative;
+}
+figcaption, p{
+    color:aliceblue;
+}
+
