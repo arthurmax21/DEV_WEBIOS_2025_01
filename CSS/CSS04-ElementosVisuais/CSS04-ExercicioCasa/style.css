@@ -3,9 +3,16 @@ body{
     font-family:Roboto Mono, monospace;
     font-weight:700;
     background: color #B3E9F3;
+    margin: 2px;
+    background-color: beige;
 }
 
 h1{
     background-color: #6590d1;
     text-shadow: 3px 3px 3px #48789f;
+}
+
+figure{
+    margin: 2px;
+    margin-bottom: 50px;
 }

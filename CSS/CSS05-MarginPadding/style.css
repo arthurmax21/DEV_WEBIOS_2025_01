@@ -1,22 +1,52 @@
 #div1{
+
     border:1px solid red;
     /* Espaçamento interno */
     padding: 10px;
     align-items: center;
-    margin-bottom: 25px;
+    /* Margin: Espaço externo */
+
+    /* Top, right, bottom, left para não precisar escrever muito, pode ser feito dessa forma, com os valores seguindo a sequência 1º TOP, 2º Right, 3º Bottom e 4º Left:*/
+    /* margin: 20px 30px 40px 50px; */
+
+     /* Formato Cruz: 1º valor para o Top e Bottom, e o 2º valor para Right e Left. */
+    /* margin:25px 10%; */
+
+    /* Top, (Right, Bottom) e Left */
+    /* margin:20px 5% 1.5rem; */
+    /* Aplicar o mesmo valor aos quatro lados: */
+    margin: 125px;
+    border-radius: 3px;
 
 
 }
 #div2{
-    border: 1px solid violet;
-    border-radius: 1px;
-    width: 650px;
-    height: 650px;
+    border: 3px solid red;
+    border-radius: 3px;
+    width: auto;
+    height: auto;
+
+    /* display: grid;
+    place-items:center;
+    justify-items:center;*/
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    margin: auto;
+    width: 660px;
+    /* padding: 4px; */
+
+
+    
 }
 
 img{
     height: 600px;
     width: 600px;
-    padding: 10px;
+    padding: 30px 0px 30px 30px;
+
+
 
 }
