@@ -1,0 +1,22 @@
+#div1{
+    border:1px solid red;
+    /* Espaçamento interno */
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 25px;
+
+
+}
+#div2{
+    border: 1px solid violet;
+    border-radius: 1px;
+    width: 650px;
+    height: 650px;
+}
+
+img{
+    height: 600px;
+    width: 600px;
+    padding: 10px;
+
+}
