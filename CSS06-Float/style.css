@@ -1,0 +1,50 @@
+.Divs{
+    border:2px solid black;
+    clear: both;
+    height: 500px;
+    margin-bottom: 30px;
+
+}
+
+#imgSmile{
+    height: 400px;
+    width: 300px;
+    float:left;
+    margin-right: 40px;
+    /* padding-left: 30px;
+    padding-top: 30px; */
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+#imgNaruto{
+    float: right;
+    width: 600px;
+    height: 400px;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+#imgGOW{
+    width: 600px;
+    height: 400px;
+    padding-top:50px;
+
+}
+
+#imgRDR{
+    width: 600px;
+    height: 400px;
+    padding-top: 50px;
+
+}
+
+#imgGif{
+    width: 300px;
+    height: 300px;
+    padding-top: 50px;
+    
+
+}

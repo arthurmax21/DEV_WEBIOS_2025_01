@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aula 06</title>
+</head>
+<body>
+    <div>
+
+        <img src="./IMG/KRATOS.webp" alt="Cleiton" style="width: 500px; height: 500px;">
+
+        <p style="border:2px solid grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem vel doloribus saepe adipisci minima beatae voluptates et cum quibusdam asperiores minus aspernatur, consequuntur est ipsum, laborum aut temporibus, dolore dolorum.</p>
+
+        <p style="clear:both; padding-top: 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam necessitatibus maiores dolorum blanditiis illo tempore nisi ullam aspernatur recusandae repellat laborum aliquid odit quidem commodi, quas inventore minus, dolore delectus.</p>
+
+    </div>
+    
+    <h1>BOUA NOITE!!</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sint ratione maxime, culpa aliquid laudantium voluptatem tenetur, nam at dicta odio iste labore. Omnis quisquam saepe eligendi sed, ab esse!</p>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, facere! Natus itaque, quo repudiandae dolores ipsam vitae ut tenetur nemo adipisci animi dolorem blanditiis facere, hic dignissimos. Debitis, suscipit perferendis!</p>
+    
+    
+</body>
+</html>
