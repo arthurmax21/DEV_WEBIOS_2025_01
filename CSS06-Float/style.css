@@ -1,3 +1,8 @@
+*{
+    margin: auto;
+    width: 90%;
+}
+
 .Divs{
     border:2px solid black;
     clear: both;
@@ -5,6 +10,12 @@
     margin-bottom: 30px;
 
 }
+
+body{
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+}
+  
 
 #imgSmile{
     height: 400px;
@@ -16,8 +27,50 @@
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
+    /* transition: width 5s, height 5s, transform 5s; */
+    border-radius:5%;
+}
+
+#tabelaSmile{
+    width: 65%;
+    border: 1px solid collapse;
+    border-radius: 3%;
+    margin-left: 50px;
+    /* margin-top: 15.6%; */
+    
+    
+
+    /* padding-top:13.8%; */
 
 }
+
+td{
+    width: 50%;
+    border: 1px solid;
+}
+
+#textSmile{
+    color: deepskyblue;
+    padding-top: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top:8%;
+    
+}
+
+
+#textSmile:hover{
+    color: black;
+    background-color: aqua;
+    
+}
+
+/* #imgSmile:hover{
+    width: 500px;
+    height: 500px;
+    transform: rotate(180deg);
+
+} */
 
 #imgNaruto{
     float: right;
@@ -25,26 +78,54 @@
     height: 400px;
     padding-top: 50px;
     padding-right: 50px;
+    transition: opacity 0.9s;
 }
 
+#imgNaruto:hover{
+    opacity: 0;
+}
+
+#textNaruto{
+
+    padding-left: 30px;
+    padding-top: 12%;
+}
+
+#textNaruto::first-letter{
+    font-size: 25px;
+    color:crimson;
+}
+
+
 #imgGOW{
+    float: left;
     width: 600px;
     height: 400px;
     padding-top:50px;
+    padding-left: 50px;
 
 }
 
 #imgRDR{
+    float: right;
     width: 600px;
     height: 400px;
     padding-top: 50px;
+    padding-right: 50px;
 
 }
 
 #imgGif{
+    /* position: fixed;
+    top:50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left:-100px; */
+
     width: 300px;
     height: 300px;
-    padding-top: 50px;
+    padding-top: 100px;
+    padding-left: 130px;
     
 
 }
