@@ -22,8 +22,50 @@ var nome2 = 'Tuê'
 var nome3 = '129312.39308' // será lido como texto
 console.log(nome, nome2, nome3) // Apresenta tudo num 'log' só
 
-VAR // Flexível e com menos regras, posso alterar o valor inicial de uma 'var' e recriá-la em outras partes do código)
+// VAR // Flexível e com menos regras, posso alterar o valor inicial de uma 'var' e recriá-la em outras partes do código)
 
-LET // Não pode recriar a mesma em outras partes do código com o mesmo nome, mas pode chamar e alterar o seu valor inicial)
+// LET // Não pode recriar a mesma em outras partes do código com o mesmo nome, mas pode chamar e alterar o seu valor inicial)
  
-CONST // Não pode recriar a mesma em outras partes do código e não pode alterar o valor inicial, garantindo a confiança do dado que está sendo inserido, ao decorrer do código(garantindo que você perca o valor incial ao decorrer do código)
+// CONST // Não pode recriar a mesma em outras partes do código e não pode alterar o valor inicial, garantindo a confiança do dado que está sendo inserido, ao decorrer do código(garantindo que você perca o valor incial ao decorrer do código)
+
+// Template String, sendo também uma das formas de concatenar:
+
+console.log(`Aluno  ${nome}  e aluno ${nome2} Tem um total de ${nome3}  dinheiros`)
+
+console.log("Olá " + "tudo bem?") // Concatenar strings
+console.log("Aluno " + nome + "e Aluno " + nome2 + " Tem um total de " + nome3 + " dinheiro ") // Concatenar também xdd
+
+console.log(10/0)
+console.log (-6 / 0)
+
+// Operadores Aritméticos
+
+var valor1 = 5
+var valor2 = 5
+console.log(valor1 + valor2)
+console.log(valor1 - valor2)
+console.log(valor1 * valor2)
+console.log(valor1 / valor2)
+console.log(valor1 ** valor2) // Exponenciação
+
+// Operadores relacionais
+
+console.log( 5 == 5)
+console.log( 5 > 5)
+console.log( 22 < 8)
+console.log( 22 >= 22)
+console.log( 22 != 23)
+console.log( 'Ana' == 'ana')
+console.log(true == false)
+console.log(true === true)
+console.log(true === 'true') // boolean e o outro é uma string
+console.log(true != 'false') // true
+
+
+let tem_camisa = false
+let tem_cracha = true
+console.log(tem_camisa);
+console.log(tem_cracha);
+console.log(tem_camisa == true && tem_cracha == true) //Operador lógico "and" que é inflexível (tudo tem que ser "true")
+console.log(tem_camisa == true || tem_cracha == true) // Operador lógico or, que é flexível, precisando apenas um ser "true"
+console.log(!(tem_camisa == true || tem_cracha == true))
