@@ -69,3 +69,28 @@ console.log(tem_cracha);
 console.log(tem_camisa == true && tem_cracha == true) //Operador lógico "and" que é inflexível (tudo tem que ser "true")
 console.log(tem_camisa == true || tem_cracha == true) // Operador lógico or, que é flexível, precisando apenas um ser "true"
 console.log(!(tem_camisa == true || tem_cracha == true))
+
+// Operadores  de atribuição
+var x = 3
+var y = 2
+x = x + y
+
+// x+= y formato contraído
+// x = 3 + 2
+console.log(x)
+
+x= 720
+console.log(x)
+
+// Log serve para mostrar resultados, mensagens do sistema
+
+// clear serve para limpar o console e deixar disponivel para novas mensagens
+
+console.clear()
+
+console.log("Está tudo limpo")
+console.log("Olá, mundo!")
+
+console.error("Não, apenas pare, agora!")
+
+console.warn("Mas apresenta uma mensagem em amarelo (cuidado)")
