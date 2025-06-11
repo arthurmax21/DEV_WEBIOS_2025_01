@@ -28,6 +28,14 @@ var texto5 = "Mozilla"
 console.log(texto5.substring(1,3))
 console.log(texto5.substring(1))
 
-var texto6 = "Bem vindo a Microsoft"
+var texto6 = "Bem vindo ao Microsoft"
 let novaMensagem = texto6.replace('Microsoft', 'IOS')
 console.log(novaMensagem)
+
+// Remover os Espaços
+// var texto7 = "             Olá  Alunos do IOS!!       "
+// console.log(texto7.trim());
+
+let textArea = "            Olá mundo, aprendendo JavaScript              "
+console.log(textArea.trim())
+// Ele só remove os espaços em branco ao inicio e ao final da String
