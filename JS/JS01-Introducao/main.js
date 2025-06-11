@@ -30,7 +30,10 @@ console.log(nome, nome2, nome3) // Apresenta tudo num 'log' só
 
 // Template String, sendo também uma das formas de concatenar:
 
-console.log(`Aluno  ${nome}  e aluno ${nome2} Tem um total de ${nome3}  dinheiros`)
+console.log(
+    
+    
+)
 
 console.log("Olá " + "tudo bem?") // Concatenar strings
 console.log("Aluno " + nome + "e Aluno " + nome2 + " Tem um total de " + nome3 + " dinheiro ") // Concatenar também xdd
