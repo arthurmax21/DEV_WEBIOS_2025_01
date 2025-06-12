@@ -18,6 +18,16 @@ if (atividadeEntregue == true){
     console.log("Você inseriu uma informação inválida!")
 }
 
+let nota = 6
+// if a nota for igual ou acima de 7 então o aluno passou na matéria
+// Else a nota for menor ou igual a 6.9 o aluno vai ficar de recuperação
+if (nota >= 7){
+    console.log("Parabéns, você passou!")
+}else{
+    console.log("Oh, não...você ficará de recuperação.")
+}
+nota >= 7 ? console.log("Parabéns, você passou!") : console.log("Você não obteve sucesso.")
+
 
 // var pontos = 200
 // var mensagem1 = "Parabéns, você passou para a próxima fase!!"
@@ -28,5 +38,7 @@ if (atividadeEntregue == true){
 // else if ( pontos < 1000) {
 //     console.log(mensagem2)
 // }
+
+
 
 
